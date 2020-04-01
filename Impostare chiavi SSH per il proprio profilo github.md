@@ -1,4 +1,4 @@
-# Impostare chiavi private / pubblica per il proprio profilo github
+# Impostare chiavi SSH per il proprio profilo github
 
 ## Generare le chiavi ssh
 
