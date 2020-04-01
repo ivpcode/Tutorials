@@ -24,3 +24,13 @@ ssh-keygen -t rsa -b 4096 -C "yourname@your.email"
 8. confermare con pulsante "add SSH key" e successivamente immettendo la password del proprio account github.
 
 
+## Utilizzare le chiavi ssh per pushare su github con SmartGit
+
+1. clonare un repository su cui si ha scrittura con SmartGit, utilizzare la vesrione ssh dell'url del repository 
+2. al push delle modifiche SmartGit chiede di immettere le credenziali, impostare "Authentication Type: Private Key" e caricare la chiave privata generata in precedenza (nel nostro esempio: github_rsa)
+3. immettere la passphrase selezionata al momento della creazione delle chiavi ssh eseguito in precedenza
+
+
+
+
+
