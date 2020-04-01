@@ -4,7 +4,9 @@
 
 1. Aprire il terminale
 2. Lanciare il comando: 
+```
     ssh-keygen -t rsa -b 4096 -C "yourname@your.email"
+```
 3. viene chiesto il file in cui salvare le chiavi ssh, è consigliabile mettere un nome che richiami github: es. github_rsa
 4. viene chiesta una password di sblocco delle chiavi, dando invio si può evitare la password ma ciò è sconsigliabile. 
 5. al termine della procedura sono generati due files con il nome specificato al passo 3, dei due quello con chiave pubblica ha estensione .pub, l'altro è senza estensione ed è la chiave privata.
