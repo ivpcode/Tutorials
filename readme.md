@@ -4,7 +4,7 @@
 
 1. Aprire il terminale
 2. Lanciare il comando: 
-```console
+```zsh
 ssh-keygen -t rsa -b 4096 -C "yourname@your.email"
 ```
 3. viene chiesto il file in cui salvare le chiavi ssh, è consigliabile mettere un nome che richiami github: es. github_rsa
